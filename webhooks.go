@@ -174,13 +174,14 @@ type SMSWebhook struct {
 	APIVersion string `json:"ApiVersion"`
 
 	// SMS Specific
-	Body          string `json:"Body"`
-	SmsSid        string `json:"SmsSid"`
-	MessageSid    string `json:"MessageSid"`
-	NumMedia      string `json:"NumMedia"`
-	NumSegments   string `json:"NumSegments"`
-	SmsStatus     string `json:"SmsStatus"`
-	SmsMessageSid string `json:"SmsMessageSid"`
+	Body                string `json:"Body"`
+	SmsSid              string `json:"SmsSid"`
+	MessageSid          string `json:"MessageSid"`
+	NumMedia            string `json:"NumMedia"`
+	NumSegments         string `json:"NumSegments"`
+	SmsStatus           string `json:"SmsStatus"`
+	SmsMessageSid       string `json:"SmsMessageSid"`
+	MessagingServiceSid string `json:"MessagingServiceSid"`
 
 	To          string `json:"To"`
 	ToCity      string `json:"ToCity"`
